@@ -16,7 +16,7 @@ pip install -r requirements.txt
 export MONGODB_URL="mongodb+srv://<username>:<password>@<url>/<db>?retryWrites=true&w=majority"
 
 # Start the service:
-uvicorn app:app --reload
+python3 -m uvicorn app:app --reload
 ```
 
 (Check out [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) if you need a MongoDB database.)
